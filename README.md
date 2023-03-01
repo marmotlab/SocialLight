@@ -58,6 +58,9 @@ folder as well as the environment parameters such as urban network or flow files
 
 # Authors
 Harsh Goel
+
 Zhang Yifeng
+
 Mehul Damani
+
 Guillaume Sartoretti
