@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-30 16:26:33 by Eclipse SUMO sumo Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="./Map/Manhattan_map/data_baseline/exp.net.xml"/>
+        <route-files value="./Map/Manhattan_map/data_baseline/exp_5.rou.xml"/>
+        <additional-files value="./Map/Manhattan_map/data_baseline/exp.add1.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="./Map/Manhattan_map/data_baseline/trip_5.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="300"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="58665"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="64824"/>
+    </random_number>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="f_0_4.0" depart="0.00" departLane="np18_nt11_0" departPos="82.39" departSpeed="0.00" departDelay="0.00" arrival="95.00" arrivalLane="nt15_np8_0" arrivalPos="177.80" arrivalSpeed="18.16" duration="95.00" routeLength="1087.61" waitingTime="14.00" waitingCount="1" stopTime="0.00" timeLoss="35.95" rerouteNo="1" devices="tripinfo_f_0_4.0 routing_f_0_4.0" vType="type1" speedFactor="0.93" vaporized=""/>
+    <tripinfo id="f_0_4.1" depart="9.00" departLane="np18_nt11_0" departPos="10.74" departSpeed="0.00" departDelay="0.82" arrival="97.00" arrivalLane="nt15_np8_0" arrivalPos="177.80" arrivalSpeed="20.02" duration="88.00" routeLength="1159.26" waitingTime="8.00" waitingCount="1" stopTime="0.00" timeLoss="31.71" rerouteNo="1" devices="tripinfo_f_0_4.1 routing_f_0_4.1" vType="type1" speedFactor="1.05" vaporized=""/>
+</tripinfos>

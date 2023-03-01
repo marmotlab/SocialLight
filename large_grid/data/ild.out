@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/28/21 17:24:26 by Eclipse SUMO sumo Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="./large_grid/data/exp.net.xml"/>
+        <route-files value="./large_grid/data/exp_8080.rou.xml"/>
+        <additional-files value="./large_grid/data/exp.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="600"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="16080"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="12"/>
+    </random_number>
+
+</configuration>

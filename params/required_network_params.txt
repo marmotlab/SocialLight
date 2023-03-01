@@ -1,0 +1,15 @@
+# THESE NETWORK PARAMETERS ARE VERY GENERAL AND THERE IS A HIGH CHANCE THAT THE CODE WILL CRASH IF THEY ARE NOT SET
+
+GLOBAL_NET_SCOPE       = 'global'
+ADAPT_COEFF            = 5.e-8          # the coefficient A in LR_Q/sqrt(A*steps+1) for calculating LR
+gamma                  = .85            # discount rate for advantage estimation and reward discounting
+LR_Q                   = 1.e-7          # / (EXPERIENCE_BUFFER_SIZE / 128) # default (conservative, for 256 steps): 1e-5 
+GRAD_CLIP              = 40.0 
+batch_gradient         = False          # Set to False, if using batch training , then also define the variables 'train_iterations' and 'batch_size'
+# Network Weights 
+policy_weight          = 1 
+value_weight           = 0.05
+entropy_weight         = 0.01 
+
+share_horizon          = False          # Set to False if not using long horizon methods, this param just does a check inside Observer 
+

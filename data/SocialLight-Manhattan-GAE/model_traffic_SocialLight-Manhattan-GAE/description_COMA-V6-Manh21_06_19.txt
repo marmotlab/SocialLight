@@ -1,0 +1,7 @@
+Train City Flow DH -net  
+Policy Weight: 1.0 
+Value Weight: 0.01 
+Entropy Weight:  0.0005 
+Pred_Loss_weight:  0.2  
+Current git branch: dev_COMA     
+git head: b'cfac55b\n' 

@@ -1,0 +1,35 @@
+
+# Plotting SUMO MOdels
+
+###########
+Training
+###########
+
+xvfb-run -a python3 train.py
+
+
+###########
+Testing
+###########
+
+# SUMO Model
+# Plotting SUMO Models
+python3 main_testing.py --Environment sumo --net_name A3C-RS-Manhattan --plot --test_config A3C-RS-Manhattan --load_agents Greedy IQLL ia2c ma2c SocialLight-Manhattan-GAE A3C-Manhattan A3C-RS-Manhattan
+# Testing SUMO Models trained by our frameworl
+python3 main_testing.py --Environment sumo --net_name A3C-RS-Manhattan --plot --test_config A3C-RS-Manhattan --test
+python3 main_testing.py --Environment sumo --net_name A3C-Manhattan --plot --test_config A3C-Manhattan --test
+python3 main_testing.py --Environment sumo --net_name SocialLight-Manhattan-GAE --plot --test_config  SocialLight-Manhattan-GAE  --test
+
+
+# Testing CityFlow models
+#Jinan
+python3 main_testing.py --Environment cityflowV2 --net_name SocialLight-DJ-GAE-vBase --plot --test_config SocialLight-DJBase --test
+python3 main_testing.py --Environment cityflowV2 --net_name SocialLight-DJ-GAE-vBase2000 --plot --test_config SocialLight-DJBase2000  --test
+python3 main_testing.py --Environment cityflowV2 --net_name SocialLight-DJ-GAE-vBase2500 --plot --test_config SocialLight-DJBase2500--test
+#Hangzhou
+python3 main_testing.py --Environment cityflowV2 --net_name SocialLight-DH-GAE-vBase --plot --test_config SocialLight-DHBase --test
+python3 main_testing.py --Environment cityflowV2 --net_name SocialLight-DH-GAE-vBase5816 --plot --test_config SocialLight-DHBase5816 --test
+# New York
+python3 main_testing.py --Environment cityflowV2 --net_name SocialLight-DN-GAE-vBase --plot --test_config SocialLight-DNBase --test
+python3 main_testing.py --Environment cityflowV2 --net_name SocialLight-DN-GAE-vBaseTrip --plot --test_config SocialLight-DNBaseTrip--test
+

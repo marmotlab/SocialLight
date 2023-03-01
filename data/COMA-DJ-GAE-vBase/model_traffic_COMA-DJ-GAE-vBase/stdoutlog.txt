@@ -1,0 +1,14 @@
+Wrote Configuration
+Wrote Configuration
+Hello World... From  global
+[2m[36m(pid=305557)[0m [0m
+[2m[36m(pid=305552)[0m [0m
+[2m[36m(Runner pid=305863)[0m Hello World... From  global
+[2m[36m(Runner pid=305864)[0m Hello World... From  global
+[2m[36m(Runner pid=305863)[0m Worker 0 || Reset Environment
+[2m[36m(Runner pid=305863)[0m  ============= self.eng.reset() to be implemented ==========
+[2m[36m(Runner pid=305863)[0m -----Seed : 0-----
+[2m[36m(Runner pid=305864)[0m Worker 1 || Reset Environment
+[2m[36m(Runner pid=305864)[0m  ============= self.eng.reset() to be implemented ==========
+[2m[36m(Runner pid=305864)[0m -----Seed : 0-----
+CTRL-C pressed. killing remote workers

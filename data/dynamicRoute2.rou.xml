@@ -1,0 +1,53 @@
+<routes>
+        <vType id="car" type="passenger" length="5" accel="2.6" decel="4.5" sigma="0.5" 
+               maxSpeed="7"
+        />
+        
+        <flow id="0" type="car" begin="0" end="10" number="1" from="l9" to="l19" departPos="0" departLane="1"  arrivalPos ="5" />
+        
+        <flow id="1" type="car" begin="0" end="10" number="1" from="l10" to="l32" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="2" type="car" begin="0" end="10" number="1" from="l10" to="l26" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="3" type="car" begin="0" end="10" number="2" from="l11" to="l32" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="4" type="car" begin="0" end="10" number="1" from="l27" to="l12" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="5" type="car" begin="0" end="10" number="1" from="l27" to="l18" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="6" type="car" begin="0" end="10" number="1" from="l27" to="l24" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="7" type="car" begin="0" end="10" number="2" from="l28" to="l12" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="8" type="car" begin="0" end="10" number="1" from="l28" to="l13" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="9" type="car" begin="0" end="10" number="1" from="l28" to="l20" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="10" type="car" begin="0" end="10" number="1" from="l28" to="l24" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="11" type="car" begin="0" end="10" number="1" from="l28" to="l25" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="12" type="car" begin="0" end="10" number="3" from="l28" to="l26" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="13" type="car" begin="0" end="10" number="2" from="l29" to="l26" departPos="0" departLane="1"  arrivalPos ="5" />
+        
+        <flow id="14" type="car" begin="0" end="10" number="1" from="l15" to="l12" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="15" type="car" begin="0" end="10" number="1" from="l16" to="l12" departPos="0" departLane="1"  arrivalPos ="5" />
+        
+        <flow id="16" type="car" begin="0" end="10" number="1" from="l16" to="l31" departPos="0" departLane="1"  arrivalPos ="5" />
+        
+        <flow id="17" type="car" begin="0" end="10" number="2" from="l16" to="l26" departPos="0" departLane="1"  arrivalPos ="5" />
+        
+        <flow id="18" type="car" begin="0" end="10" number="5" from="l17" to="l32" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="19" type="car" begin="0" end="10" number="2" from="l17" to="l24" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="20" type="car" begin="0" end="10" number="3" from="l17" to="l25" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="21" type="car" begin="0" end="10" number="4" from="l17" to="l26" departPos="0" departLane="2"  arrivalPos ="5" />
+        
+        <flow id="22" type="car" begin="0" end="10" number="1" from="l21" to="l14" departPos="0" departLane="0"  arrivalPos ="5" />
+        
+        <flow id="23" type="car" begin="0" end="10" number="1" from="l21" to="l30" departPos="0" departLane="0"  arrivalPos ="5" />
+        </routes>
