@@ -23,6 +23,7 @@ wandb==0.12.21
 ```
 
 Additionally, setup the cityflow environments and the tensorflow version 2.4.0 as mentioned for the baselines.
+The sumo baselines and code can be found at https://github.com/cts198859/deeprl_signal_control.
 
 ## Train
 1 . Set parameters within the params folder. The environment, model and the corresponding observation spaces can be modified in the params/Final/important_params.py folder. 
