@@ -43,15 +43,17 @@ xvfb-run -a python3 train.py
 ## Test
 1. To perform testing refer to the run_commands.txt file for the run commands that we used to test our models. 
 
-2. If you wish to test your own models, it is imperative that you copy your training parameters in the params folder into the the test_params folder.
-Under utilities, run the generate_configs.py script to write the testing_params into a .config file which can be found in the configs/test_configs folder. Alternatively, you could choose to copy the config file geenrated during training automatically into the test configs folder.
+2. If you wish to test your own models, it is imperative that you copy your training parameters in the params folder into the test_params folder.
+Under utilities, run the generate_configs.py script to write the testing_params into a .config file which can be found in the configs/test_configs folder. Alternatively, you could choose to copy the config file generated during training automatically into the test configs folder.
 
 3. Before testing your model, make sure to note that the important parameters in your test_params/Final/important_params.py match those in your test_config
-folder as well as the environment parameters such as urban network or flow files params/Final/Environment_params/ match those in your test config. 
+folder as well as the environment parameters such as urban network or flow files params/Final/Environment_params/ match those in your test config.
 
-4. Follow the reference commands as specifed in the run_commands.txt to test your models
+4. Change the necessary parameters in test_params/Final/testing_params for the desired model to be loaded for testing.
 
-5. After setting the respective parameters,call the following command to train the model.
+5. Follow the reference commands as specifed in the run_commands.txt to test your models
+
+6. After setting the respective parameters,call the following command to train the model.
 
 # Cite
 
